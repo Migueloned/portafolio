@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- iconos -->
     <script src="https://kit.fontawesome.com/cbe2f92237.js" crossorigin="anonymous"></script>
 
@@ -25,47 +27,54 @@
 
     <header>
 
-        <nav class="navbar bg-dark navbar-expand-md fixed-top sticky-top" data-bs-theme="dark" id="main-navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand" href="#">
 
                     <h1><span>Miguel </span>Gallardo</h1>
 
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sobre-mi">Sobre mi</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#habilidades">Habilidades</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#proyectos-realizados">Proyectos realizados</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#formulario">Formulario de contacto</a>
-                        </li>
                     </ul>
+                    <div class="d-flex" role="search">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Inicio</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#sobre-mi">Sobre mi</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#habilidades">Habilidades</a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="#proyectos-realizados">Proyectos realizados</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#formulario">Formulario de contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#enlaces">Enlaces</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
             </div>
 
+            </div>
     </header>
+    
     <!-- final del encabezado -->
 
     <!--inicio sobre mi -->
@@ -99,7 +108,8 @@
                         <div class="about-content wow fadeInUp" data-wow-delay="0.8s">
                             <h3>Mi nombre es Miguel</h3>
                             <p class="texto-centrado">Soy Miguel Gallardo Vargas, Ingeniero Civil en Computación e
-                                Informática con una sólida formación y creciente experiencia en desarrollo de software. </p>
+                                Informática con una sólida formación y creciente experiencia en desarrollo de software.
+                            </p>
 
                             <p class="texto-centrado">Mis fuertes aptitudes lógicomatemáticas complementan mis
                                 habilidades técnicas y me permiten adaptarme rápidamente a nuevas tecnologías. Soy una
@@ -173,81 +183,81 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <!-- Service Single Start -->
+                    <!-- Servicios start-->
                     <div class="service-single wow fadeInUp" data-wow-delay="0.3s">
                         <div class="icon-box">
-                            <i class="flaticon-idea"></i>
+                            <i class="fa-solid fa-c" style="color: #ff5d56;"></i>
                         </div>
 
-                        <h3>Web Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda voluptas</p>
+                        <h3>Desarrollo en C++</h3>
+                        <p>Conocimiento y manejo logico en el lenguaje de programación C++.</p>
                     </div>
-                    <!-- Service Single End -->
+                    <!-- servicios ends -->
                 </div>
 
                 <div class="col-md-4">
-                    <!-- Service Single Start -->
+                    <!-- Servicios start-->
                     <div class="service-single wow fadeInUp" data-wow-delay="0.6s">
                         <div class="icon-box">
-                            <i class="flaticon-translation"></i>
+                            <i class="fa-brands fa-python" style="color: #ff5d56;"></i>
                         </div>
 
-                        <h3>Web Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda voluptas</p>
+                        <h3>Desarrollo en Python</h3>
+                        <p>Manejo de backend y conocimiento logico/sintactico del lenguaje Python.</p>
                     </div>
-                    <!-- Service Single End -->
+                    <!-- servicios ends -->
                 </div>
 
                 <div class="col-md-4">
-                    <!-- Service Single Start -->
+                    <!-- Servicios start-->
                     <div class="service-single wow fadeInUp" data-wow-delay="0.9s">
                         <div class="icon-box">
-                            <i class="flaticon-controls"></i>
+                            <i class="fa-solid fa-computer" style="color: #ff5d56;"></i>
                         </div>
 
-                        <h3>Photography</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda voluptas</p>
+                        <h3>Soporte de hardware</h3>
+                        <p>Manejo avanzado de soporte en hardware computacional.</p>
                     </div>
-                    <!-- Service Single End -->
+                    <!-- servicios ends -->
                 </div>
 
                 <div class="col-md-4">
-                    <!-- Service Single Start -->
+                    <!-- Servicios start-->
                     <div class="service-single wow fadeInUp" data-wow-delay="1.2s">
                         <div class="icon-box">
-                            <i class="flaticon-growth"></i>
+                            <i class="fa-brands fa-php" style="color: #ff5d56;"></i>
                         </div>
 
-                        <h3>SEO Analyst</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda voluptas</p>
+                        <h3>Manejo de PHP</h3>
+                        <p>Manejo de PHP para el manejo, edicion y creacion de frontend.</p>
                     </div>
-                    <!-- Service Single End -->
+                    <!-- servicios ends -->
                 </div>
 
                 <div class="col-md-4">
-                    <!-- Service Single Start -->
+                    <!-- Servicios start-->
                     <div class="service-single wow fadeInUp" data-wow-delay="1.5s">
                         <div class="icon-box">
-                            <i class="flaticon-quality"></i>
+                            <i class="fa-solid fa-chart-pie" style="color: #ff5d56;"></i>
                         </div>
 
-                        <h3>Creative Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda voluptas</p>
+                        <h3>Analisis de datos</h3>
+                        <p>Manejo de libreria pandas y conocimientos estadisticos para el analisis de datos.</p>
                     </div>
-                    <!-- Service Single End -->
+                    <!-- servicios ends -->
                 </div>
 
                 <div class="col-md-4">
-                    <!-- Service Single Start -->
+                    <!-- Servicios start-->
                     <div class="service-single wow fadeInUp" data-wow-delay="1.8s">
                         <div class="icon-box">
-                            <i class="flaticon-support"></i>
+                            <i class="fa-solid fa-user-tie" style="color: #ff5d56;"></i>
                         </div>
 
-                        <h3>24 X 7 Support</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda voluptas</p>
+                        <h3>Ingenieria Civil en computacion</h3>
+                        <p>Ingeniero Civil en Computacion e informatica y licenciado en ciencias de la ingenieria.</p>
                     </div>
-                    <!-- Service Single End -->
+                    <!-- servicios ends -->
                 </div>
             </div>
         </div>
@@ -256,8 +266,10 @@
     <!-- habilidades final -->
 
 
+
     <!-- proyectos realizados start -->
 
+    <!-- En esta seccion no hay incluido proyectos reales, espero completarlo con los proyectos realizados en el bootcamp -->
 
     <div class="portfolio" id="proyectos-realizados">
         <div class="container">
@@ -279,13 +291,13 @@
                         <a>
                             <img src="assets/img/Python-logo.png" class="Portfolio Image" alt="" />
                             <div class="single-portfolio-overlay">
-                                <h2>Project Title</h2>
-                                <h3>Designing</h3>
+                                <h2>Futuro Proyecto 1</h2>
+                                <h3>Descripcion del proyecto</h3>
                             </div>
                         </a>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn-view-project">View Project</a>
+                        <a href="#" class="btn-view-project">Ver Proyecto</a>
                     </div>
 
                 </div>
@@ -295,15 +307,15 @@
                 <div class="col-md-3 col-sm-6 col-xs-12 portfolio-box designing">
                     <div class="single-portfolio">
                         <a>
-                            <img src="assets/img/Python-logo.png" class="Portfolio Image" alt="" />
+                            <img src="assets/img/portfolio-1.jpg" class="Portfolio Image" alt="" />
                             <div class="single-portfolio-overlay">
-                                <h2>Project Title</h2>
-                                <h3>Designing</h3>
+                                <h2>Futuro Proyecto 2</h2>
+                                <h3>Descripcion del proyecto</h3>
                             </div>
                         </a>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn-view-project">View Project</a>
+                        <a href="#" class="btn-view-project">Ver Proyecto</a>
                     </div>
                 </div>
                 <!-- Segundo proyecto ends -->
@@ -312,15 +324,15 @@
                 <div class="col-md-3 col-sm-6 col-xs-12 portfolio-box websites">
                     <div class="single-portfolio">
                         <a>
-                            <img src="assets/img/Python-logo.png" class="Portfolio Image" alt="" />
+                            <img src="assets/img/portfolio-2.jpg" class="Portfolio Image" alt="" />
                             <div class="single-portfolio-overlay">
-                                <h2>Project Title</h2>
-                                <h3>Websites</h3>
+                                <h2>Futuro Proyecto 3</h2>
+                                <h3>Descripcion del proyecto</h3>
                             </div>
                         </a>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn-view-project">View Project</a>
+                        <a href="#" class="btn-view-project">Ver Proyecto</a>
                     </div>
                 </div>
                 <!-- tercer portafolio ends -->
@@ -329,15 +341,15 @@
                 <div class="col-md-3 col-sm-6 col-xs-12 portfolio-box graphic">
                     <div class="single-portfolio">
                         <a href="#popup-4" class="has-popup">
-                            <img src="assets/img/Python-logo.png" class="Portfolio Image" alt="" />
+                            <img src="assets/img/portfolio-3.jpg" class="Portfolio Image" alt="" />
                             <div class="single-portfolio-overlay">
-                                <h2>Project Title</h2>
-                                <h3>Graphic</h3>
+                                <h2>Futuro Proyecto 4</h2>
+                                <h3>Descripcion del proyuecto</h3>
                             </div>
                         </a>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn-view-project">View Project</a>
+                        <a href="#" class="btn-view-project">Ver Proyecto</a>
                     </div>
                 </div>
                 <!-- cuarto portafolio Ends -->
@@ -406,13 +418,13 @@
 
 
     <!-- Footer starts -->
-    <footer class="main-footer">
+    <footer class="main-footer" id="enlaces">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-logo">
                         <h1><span>Miguel</span> Gallardo</h1>
-                    </div>               
+                    </div>
                     <div class="footer-about">
                         <p>Portafolio para ser evaluado como practica de consolidación, bootcamp julio, 2024.</p>
                     </div>
@@ -420,7 +432,8 @@
                     <div class="footer-social">
                         <a href="https://www.facebook.com/Miguelon.G.V"><i class="fa fa-facebook"></i></a>
                         <a href="https://twitter.com/_MiguelGallardo"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/miguel-gallardo-vargas-0061901a7/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/miguel-gallardo-vargas-0061901a7/"><i
+                                class="fa fa-linkedin"></i></a>
                         <a href="https://www.instagram.com/miguel_g.v/"><i class="fa fa-instagram"></i></a>
                     </div>
                     <!-- Footer redes sociales end -->
