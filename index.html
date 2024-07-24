@@ -29,7 +29,7 @@
             <div class="container">
                 <a class="navbar-brand" href="#">
 
-                    <h1><span class="resaltado-rojo">Miguel </span>Gallardo</h1>
+                    <h1><span>Miguel </span>Gallardo</h1>
 
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,19 +45,19 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre mi</a>
+                            <a class="nav-link" href="#sobre-mi">Sobre mi</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Habilidades</a>
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos realizados</a>
+                            <a class="nav-link" href="#proyectos-realizados">Proyectos realizados</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Formulario de contacto</a>
+                            <a class="nav-link" href="#formulario">Formulario de contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -70,12 +70,12 @@
 
     <!--inicio sobre mi -->
 
-    <section>
-        <div class="container pt-5 ">
+    <section class="about-us" id="sobre-mi">
+        <div class="container ">
             <div class="row text-center merienda">
                 <div class="col-md-12">
                     <!-- Titulo de presentacion-->
-                    <div>
+                    <div class="section-title">
                         <h2>Sobre mi</h2>
                         <p>Descripcion y datos personales</p>
                     </div>
@@ -83,10 +83,10 @@
                 </div>
             </div>
 
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-lg-4">
                     <!-- imagen personal -->
-                    <div class="mt-5">
+                    <div class="about-image">
                         <img src="assets/img/foto.png" alt="" />
                     </div>
                     <!-- imagen personal cierre -->
@@ -95,16 +95,20 @@
                 <div class="col-lg-8">
                     <!-- datos personales start -->
                     <div>
-                        <h3 class="texto-centrado">Mi nombre es Miguel</h3>
-                        <p class="texto-centrado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
-                            assumenda, voluptas
-                            nostrum quasi eaque modi voluptatibus sed enim rem? Itaque veritatis eligendi, magnam
-                            doloremque vitae temporibus quae error odit.</p>
 
-                        <p class="texto-centrado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae,
-                            sapiente illo, atque animi
-                            repellat blanditiis quisquam possimus repellendus! Temporibus ipsa ullam, ipsam delectus
-                            voluptatibus iure maiores laudantium doloremque!</p>
+                        <div class="about-content wow fadeInUp" data-wow-delay="0.8s">
+                            <h3>Mi nombre es Miguel</h3>
+                            <p class="texto-centrado">Soy Miguel Gallardo Vargas, Ingeniero Civil en Computación e
+                                Informática con una sólida formación y creciente experiencia en desarrollo de software. </p>
+
+                            <p class="texto-centrado">Mis fuertes aptitudes lógicomatemáticas complementan mis
+                                habilidades técnicas y me permiten adaptarme rápidamente a nuevas tecnologías. Soy una
+                                persona proactiva y confiable, comprometida con la excelencia y la mejora continua,
+                                buscando contribuir al éxito de una organización innovadora. Tengo experiencia en
+                                metodologías ágiles, lo cual me permite trabajar de manera colaborativa y enfocada en la
+                                entrega incremental de soluciones de calidad. Mi objetivo es aplicar y expandir mis
+                                conocimientos en proyectos tecnológicos desafiantes y colaborativos.</p>
+                        </div>
 
                         <div class="row mt-5">
                             <div class="col-lg-6">
@@ -154,16 +158,16 @@
 
     <!-- habilidades inicio -->
 
-    <section class="services" id="services">
+    <section class="services" id="habilidades">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <!-- Section title start -->
+                    <!-- titulo start -->
                     <div class="section-title">
                         <h2>Mis habilidades</h2>
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <p>Habilidades, conocimientos y educación</p>
                     </div>
-                    <!-- Section title end -->
+                    <!-- titulo end -->
                 </div>
             </div>
 
@@ -255,7 +259,7 @@
     <!-- proyectos realizados start -->
 
 
-    <div class="portfolio" id="portfolio">
+    <div class="portfolio" id="proyectos-realizados">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -269,7 +273,7 @@
             </div>
 
             <div class="row">
-                <!-- Single Portfolio starts -->
+                <!-- Primer proyecto start -->
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-portfolio">
                         <a>
@@ -285,9 +289,9 @@
                     </div>
 
                 </div>
-                <!-- Single Portfolio Ends -->
+                <!-- Primer proyecto ends -->
 
-                <!-- Single Portfolio starts -->
+                <!-- segundo proyecto start -->
                 <div class="col-md-3 col-sm-6 col-xs-12 portfolio-box designing">
                     <div class="single-portfolio">
                         <a>
@@ -302,9 +306,9 @@
                         <a href="#" class="btn-view-project">View Project</a>
                     </div>
                 </div>
-                <!-- Single Portfolio Ends -->
+                <!-- Segundo proyecto ends -->
 
-                <!-- Single Portfolio starts -->
+                <!-- tercer proyecto start -->
                 <div class="col-md-3 col-sm-6 col-xs-12 portfolio-box websites">
                     <div class="single-portfolio">
                         <a>
@@ -319,9 +323,9 @@
                         <a href="#" class="btn-view-project">View Project</a>
                     </div>
                 </div>
-                <!-- Single Portfolio Ends -->
+                <!-- tercer portafolio ends -->
 
-                <!-- Single Portfolio starts -->
+                <!-- cuarto portafolio starts -->
                 <div class="col-md-3 col-sm-6 col-xs-12 portfolio-box graphic">
                     <div class="single-portfolio">
                         <a href="#popup-4" class="has-popup">
@@ -336,7 +340,7 @@
                         <a href="#" class="btn-view-project">View Project</a>
                     </div>
                 </div>
-                <!-- Single Portfolio Ends -->
+                <!-- cuarto portafolio Ends -->
 
 
 
@@ -346,92 +350,86 @@
 
     <!-- proyectos realizados end -->
 
-    
+
 
     <!-- formulario de contacto start -->
-    
-	<section class="contactus" id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<!-- titulo start -->
-					<div class="section-title">
-						<h2>Contacto</h2>
-						<p>Para cualquier informacion - contactame</p>
-					</div>
-					<!-- titulo end -->
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-8 offset-md-2">
-					<!-- contacto start -->
-					<div >
-						<form id="contactForm" method="post">
-							<div class="row">
-								<div class="form-control-lg col-md-6 col-sm-6">
-									<input type="text" class="form-control" placeholder="Tu Nombre">
-								</div>
-								
-								<div class="form-control-lg col-md-6 col-sm-6">
-									<input type="email" class="form-control" placeholder="Escribe tu correo">
-								</div>
-								
-								<div class="form-control-lg col-md-12 col-sm-12">
-									<input type="text" class="form-control" placeholder="Asunto">
-								</div>
-								
-								<div class="form-control-lg col-md-12 col-sm-12">
-									<textarea rows="4" class="form-control" placeholder="¿Como puedo ayudarte?"></textarea>
-								</div>
-								
-								<div class="form-control-lg col-sm-12 text-center">
-									<button type="submit" class="btn-contact">Enviar</button>
-								</div>
-							</div>
-						</form>
-					</div>
-					<!-- contacto end -->
-				</div>
-			</div>
-		</div>
-	</section>
-	
+
+    <section class="contactus" id="formulario">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- titulo start -->
+                    <div class="section-title">
+                        <h2>Contacto</h2>
+                        <p>Para cualquier informacion - contactame</p>
+                    </div>
+                    <!-- titulo end -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <!-- contacto start -->
+                    <div>
+                        <form id="contactForm" method="post">
+                            <div class="row">
+                                <div class="form-control-lg col-md-6 col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Tu Nombre">
+                                </div>
+
+                                <div class="form-control-lg col-md-6 col-sm-6">
+                                    <input type="email" class="form-control" placeholder="Escribe tu correo">
+                                </div>
+
+                                <div class="form-control-lg col-md-12 col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Asunto">
+                                </div>
+
+                                <div class="form-control-lg col-md-12 col-sm-12">
+                                    <textarea rows="4" class="form-control"
+                                        placeholder="¿Como puedo ayudarte?"></textarea>
+                                </div>
+
+                                <div class="form-control-lg col-sm-12 text-center">
+                                    <button type="submit" class="btn-contact">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- contacto end -->
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- formulario de contacto end -->
 
 
-    	<!-- Footer starts -->
-	<footer class="main-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<!-- Footer Logo start -->
-					<div class="footer-logo">
-						<h1><span>Miguel</span> Gallardo</h1>
-					</div>
-					<!-- Footer Logo end -->
-					
-					<!-- Footer About start -->
-					<div class="footer-about">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>
-					<!-- Footer About end -->
-					
-					<!-- Footer Social Link start -->
-					<div class="footer-social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-pinterest-p"></i></a>
-					</div>
-					<!-- Footer Social Link end -->
-					
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer Ends -->
+    <!-- Footer starts -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-logo">
+                        <h1><span>Miguel</span> Gallardo</h1>
+                    </div>               
+                    <div class="footer-about">
+                        <p>Portafolio para ser evaluado como practica de consolidación, bootcamp julio, 2024.</p>
+                    </div>
+                    <!-- Footer redes sociales start -->
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/Miguelon.G.V"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/_MiguelGallardo"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/miguel-gallardo-vargas-0061901a7/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/miguel_g.v/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <!-- Footer redes sociales end -->
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

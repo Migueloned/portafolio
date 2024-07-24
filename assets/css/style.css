@@ -1,12 +1,18 @@
-.link-con-imagen {
-    display: block;
-    width: 200px; /* Ajusta el ancho según tus necesidades */
-    height: 200px; /* Ajusta la altura según tus necesidades */
-    background-image: url('assets/img/Python-logo.png'); /* URL de la imagen de fondo */
-    background-size: cover;
-    background-position: center;
-    text-decoration: none;
+/* navbar */
+
+.navbar-brand h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: normal;
+	transition: all 0.3s;
+	color: #fff;
+	margin: 0;
 }
+
+.navbar-brand h1 span{
+	color: #ff5d56;
+}
+/* navbar */
+
 
 
 h1,
